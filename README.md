@@ -18,8 +18,8 @@ Actividad del curso **Programación Web – UFPS** (profesor Daniel Esteban), Gr
 
 ```bash
 # 1. Clonar
-git clone <URL-DEL-REPOSITORIO>
-cd <carpeta-del-repositorio>
+git clone https://github.com/juanvalbuena7/Biblioteca-Ufps.git
+cd Biblioteca-Ufps
 
 # 2. Entorno virtual
 python -m venv venv
