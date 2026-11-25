@@ -283,7 +283,7 @@ Script: `docs/optimizacion_n_mas_1.py` (salida real en `docs/salida_optimizacion
 
 ## 10. Equipo y reflexión
 
-**Integrantes (Grupo A4):** Juan David Valbuena Correa, <!-- AGREGAR AQUÍ LOS DEMÁS INTEGRANTES -->
+**Integrantes (Grupo A4):** Juan David Valbuena Correa, Yender Steven Melgajero Alvarado, David Camilo Colmenares Hernandez
 
 **1. ¿Qué parte del diseño cambió después de escribir las primeras consultas, y por qué?**
 El modelo en sí se mantuvo, pero las consultas nos hicieron entender cómo se comportan las relaciones: al intentar "copias disponibles" y "estudiantes con préstamo activo" vimos que "activo" depende de que `fecha_devolucion` sea `NULL`, por eso dejamos ese campo opcional y definimos la regla de negocio sobre él (restricción parcial). También nos llevó a probar con datos donde hay copias y estudiantes sin ningún préstamo, que es donde fallaron nuestras primeras consultas.
